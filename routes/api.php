@@ -18,3 +18,4 @@ use Illuminate\Support\Facades\Route;
 //    return $request->user();
 //});
 Route::get('authors/search/{search}', [\App\Http\Controllers\AuthorsController::class, 'search']);
+Route::get('books/search/{search}', [\App\Http\Controllers\BooksController::class, 'search']);
